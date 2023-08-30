@@ -27,6 +27,8 @@ const readAndAppend = (content, file) => {
       const parsedData = JSON.parse(data);
       parsedData.push(content);
       writeToFile(file, parsedData);
+      //returning the array with new note (we called it parsed data here)
+      return parsedData;
     }
   });
 };
