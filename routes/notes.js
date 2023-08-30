@@ -3,12 +3,12 @@ const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
 const uuid = require('../helpers/uuid');
 
 // GET Route for retrieving all the notes
-notes.get('/api/notes', (req, res) => {
+notes.get('/notes', (req, res) => {
   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 // POST Route for a new note
-notes.post('/api/notes', (req, res) => {
+notes.post('/notes', (req, res) => {
   console.log(req.body);
 
   const { title, text } = req.body;
@@ -27,4 +27,4 @@ notes.post('/api/notes', (req, res) => {
   }
 });
 
-module.exports = tips;
+module.exports = notes;
