@@ -17,6 +17,10 @@ Do you ever feel overwhelmed with the amoung of tasks you have to complete in on
 
 https://github.com/TheRealMi/NoteTaker
 
+## Note Taker Walkthrough
+Check out the Note Taker in action by clicking on the image below!
+<a href="https://watch.screencastify.com/v/vKNUHrqJKYNp1F45UnSO">![Homepage screenshot](./public/assets/images/homepage.PNG)</a>
+
 ## Usage
 Follow this link to get to the Note Taker!
 [Click here :)](https://notetaker-mo-4bf6fa91d433.herokuapp.com/)
