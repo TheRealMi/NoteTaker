@@ -9,7 +9,7 @@ Do you ever feel overwhelmed with the amoung of tasks you have to complete in on
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Code Snipits](#codesnipits)
+- [Code Snipits](#code)
 - [Credits](#credits)
 - [License](#license)
 
