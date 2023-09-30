@@ -1,7 +1,7 @@
 # Note Taker
 
 ## Description
-An application to write and save notes to organize thoughts and keep track of tasks.
+Do you ever feel overwhelmed with the amoung of tasks you have to complete in one day? Or maybe you thought of a brilliant idea and need to write it down before it escapes you! The Note Taker is an application to write and save notes to organize your thoughts and keep track of those tasks.
 
 
 
