@@ -36,7 +36,40 @@ Save your note by clicking the Save button (floppy disc) at the top right hand s
 If you'd like to delete a note, click the Delete button next to the note on the list
 ![Delete screenshot](./public/assets/images/deleteBtn.PNG)
 
+## Code Snipits
+```
+const readAndAppend = (content, file) => {
+  fs.readFile(file, 'utf8', (err, data) => {
+    if (err) {
+      console.error(err);
+    } else {
+      const parsedData = JSON.parse(data);
+      parsedData.push(content);
+      writeToFile(file, parsedData);
+      //returning the array with new note (we called it parsed data here)
+      return parsedData;
+    }
+  });
+};
+```
 
+```
+const renderActiveNote = () => {
+  hide(saveNoteBtn);
+
+  if (activeNote.id) {
+    noteTitle.setAttribute('readonly', true);
+    noteText.setAttribute('readonly', true);
+    noteTitle.value = activeNote.title;
+    noteText.value = activeNote.text;
+  } else {
+    noteTitle.removeAttribute('readonly');
+    noteText.removeAttribute('readonly');
+    noteTitle.value = '';
+    noteText.value = '';
+  }
+};
+```
 ## Credits
 
 [Coding Bootcamp](https://courses.bootcampspot.com)
