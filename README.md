@@ -9,7 +9,7 @@ Do you ever feel overwhelmed with the amoung of tasks you have to complete in on
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Code Snipits](#code)
+- [Code Snipits](#[code](https://github.com/TheRealMi/NoteTaker/blob/main/README.md#code-snipits))
 - [Credits](#credits)
 - [License](#license)
 
