@@ -48,4 +48,6 @@ If you'd like to delete a note, click the Delete button next to the note on the 
 
 ## License
 
-Please refer to the license on the repo
+This project is licensed under the [MIT License](LICENSE).
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
