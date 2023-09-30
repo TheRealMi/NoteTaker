@@ -19,7 +19,7 @@ https://github.com/TheRealMi/NoteTaker
 
 ## Usage
 Follow this link to get to the Note Taker!
-https://notetaker-mo-4bf6fa91d433.herokuapp.com/
+[Click here :)](https://notetaker-mo-4bf6fa91d433.herokuapp.com/)
 
 You will be presented with the homepage with the blue "Get Started" button to begin writing your notes
 ![Homepage screenshot](./public/assets/images/homepage.PNG)
